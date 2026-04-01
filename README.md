@@ -22,5 +22,9 @@
 *   `Mô hình quan hệ.pdf`: Mô hình dữ liệu quan hệ sau khi chuẩn hóa.
 *   `Sơ đồ ER.pdf`: Sơ đồ thực thể liên kết ER.
 ### 2. Cơ sở dữ liệu (SQL)
+*   `QuanLyChungCuVaPhiDichVu.sql`: Script khởi tạo cấu trúc 13 bảng và chèn dữ liệu mẫu.
+*   *   Thư mục `/Truy vấn SQL`: Chứa 14 câu lệnh truy vấn từ cơ bản đến nâng cao.
+### 3. Mã nguồn App Demo
 
-### 3. Mã nguồn Web Demo
+---
+*Nhóm 4 - Mã lớp hành chính: D24CQGA01-B*
