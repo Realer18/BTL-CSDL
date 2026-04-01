@@ -9,7 +9,7 @@
 ---
 
 ## SLIDE
-[Slide BTL]
+🔗 [Slide BTL](https://canva.link/mod8t0yxva8bxbi)
 ---
 
 ## Web Demo
