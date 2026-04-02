@@ -1,4 +1,4 @@
----Danh sách căn hộ chưa có cư dân
+---Danh sách hóa đơn quá hạn (TM)
 SELECT *
-FROM CanHo
-WHERE SoCuDan = 0;
+FROM HoaDonTM
+WHERE TrangThai = N'Quá hạn';
