@@ -1,3 +1,3 @@
----Danh sách cư dân + căn hộ đang ở
-SELECT cd.TenCuDan, cd.SoCanHo
-FROM CuDan cd
+---Lấy danh sách tất cả cư dân
+SELECT * 
+FROM CuDan;
