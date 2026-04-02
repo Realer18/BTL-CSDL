@@ -1,4 +1,4 @@
----Danh sách xe của cư dân
-SELECT cd.TenCuDan, xm.BienSoXe, xm.LoaiXe
-FROM XeMay xm
-JOIN CuDan cd ON xm.IDCuDan = cd.IDCuDan;
+---Tổng tiền hóa đơn theo từng căn hộ
+SELECT SoCanHo, SUM(SoTien) AS TongTien
+FROM HoaDonCuDan
+GROUP BY SoCanHo;
