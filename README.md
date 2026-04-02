@@ -23,7 +23,7 @@
 *   `Sơ đồ ER.pdf`: Sơ đồ thực thể liên kết ER.
 ### 2. Cơ sở dữ liệu (SQL)
 *   `QuanLyChungCuVaPhiDichVu.sql`: Script khởi tạo cấu trúc 13 bảng và chèn dữ liệu mẫu.
-*   *   Thư mục `/Truy vấn SQL`: Chứa 14 câu lệnh truy vấn từ cơ bản đến nâng cao.
+*   *   Thư mục `/Truy vấn SQL`: Chứa 15 câu lệnh truy vấn từ cơ bản đến nâng cao.
 ### 3. Mã nguồn App Demo
 
 ---
