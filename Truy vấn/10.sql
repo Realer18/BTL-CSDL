@@ -1,4 +1,4 @@
----Tìm cư dân theo tên
+---Lấy danh sách mặt bằng thương mại đang cho thuê
 SELECT *
-FROM CuDan
-WHERE TenCuDan LIKE N'%Nguyễn%';
+FROM MatBangThuongMai
+WHERE TinhTrang = N'Đang thuê';
