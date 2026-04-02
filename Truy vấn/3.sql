@@ -1,4 +1,3 @@
----Danh sách hóa đơn chưa thanh toán
-SELECT *
-FROM HoaDonCuDan
-WHERE TrangThai = N'Chưa thanh toán';
+---Danh sách cư dân và căn hộ họ đang ở
+SELECT CD.TenCuDan, CD.SoCanHo
+FROM CuDan CD;
