@@ -1,4 +1,5 @@
----Danh sách hóa đơn quá hạn (mặt bằng thương mại)
-SELECT *
-FROM HoaDonTM
-WHERE TrangThai = N'Quá hạn';
+---Top căn hộ có tiền hóa đơn cao nhất
+SELECT TOP 3 SoCanHo, SUM(SoTien) AS TongTien
+FROM HoaDonCuDan
+GROUP BY SoCanHo
+ORDER BY TongTien DESC;
