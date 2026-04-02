@@ -1,4 +1,5 @@
----Đếm số cư dân trong mỗi căn hộ
-SELECT SoCanHo, COUNT(*) AS SoLuongCuDan
-FROM CuDan
-GROUP BY SoCanHo;
+---Lấy danh sách căn hộ kèm tên người quản lý
+SELECT CH.SoCanHo, CH.SoTang, NQL.TenNguoiQuanLy
+FROM CanHo CH
+JOIN NguoiQuanLy NQL 
+ON CH.IDNguoiQuanLy = NQL.IDNguoiQuanLy;
