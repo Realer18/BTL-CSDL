@@ -1,3 +1,4 @@
----Kiểm tra tài khoản và quyền
-SELECT IDTaiKhoan, QuyenHan
-FROM TaiKhoan;
+---Tìm căn hộ chưa có người ở
+SELECT *
+FROM CanHo
+WHERE SoCuDan = 0;
